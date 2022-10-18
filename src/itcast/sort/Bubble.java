@@ -6,6 +6,7 @@ public class Bubble {
     /*
     排序
      */
+    /*卧槽*/
     public static void sort(Comparable[] a){
         for(int i=a.length-1;i>0;i--){
             for(int j=0;j<i;j++){
@@ -19,12 +20,14 @@ public class Bubble {
     /*
       比较大小
      */
+    /*卧槽*/
     private static boolean greater(Comparable v,Comparable w){
         return v.compareTo(w)>0;
     }
     /*
-        交换
+      比较大小
      */
+    /*卧槽*/
     private static void exchange(Comparable[] a,int i,int j){
           Comparable temp;
           temp=a[i];
